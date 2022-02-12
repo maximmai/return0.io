@@ -4,7 +4,7 @@ This is going to be a website contains mainly educational resources.
 
 ### Why the name of `return0`
 
-In Linux/Unix environment, when a program exits with a return code `0`, it indicates the program successfully exits.  `return0.io` borrows this concept, and 
+In Linux/Unix environment, when a program exits with a return code `0`, it indicates the program successfully exits.
 
 ### What to expect?
 
