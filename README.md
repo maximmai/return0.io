@@ -10,7 +10,7 @@ In Linux/Unix environment, when a program exits with a return code `0`, it indic
 
 `Return0` will provide both fundamental computer science concept, in format of crash course and detailed explaination, programming challenges and more.
 
-![image](https://user-images.githubusercontent.com/506983/153718613-1182936b-cd8b-4768-9ded-60dc82e866df.png)
+Sample leetcode question: Given two integers a and b, return the sum of the two integers without using the operators + and -.
 
 ```
 def getSum(self, a: int, b: int) -> int:
