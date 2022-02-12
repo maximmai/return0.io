@@ -10,6 +10,26 @@ In Linux/Unix environment, when a program exits with a return code `0`, it indic
 
 `Return0` will provide both fundamental computer science concept, in format of crash course and detailed explaination, programming challenges and more.
 
+![image](https://user-images.githubusercontent.com/506983/153718613-1182936b-cd8b-4768-9ded-60dc82e866df.png)
+
+```
+def getSum(self, a: int, b: int) -> int:
+    x, y = abs(a), abs(b)
+    
+    if x < y:
+        return self.getSum(b, a)  
+    sign = 1 if a > 0 else -1
+
+    if a * b >= 0:
+        while y:
+            x, y = x ^ y, (x & y) << 1
+    else:
+        while y:
+            x, y = x ^ y, ((~x) & y) << 1
+
+    return x * sign
+```
+
 ### Support or Contact
 
 maxim[dot]sl[dot]mai[at]gmail[dot]com
