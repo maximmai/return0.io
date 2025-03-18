@@ -1,6 +1,6 @@
 ## Welcome to `return0.io`
 
-This is going to be a website contains mainly educational resources.
+Welcome to return0.io! My name is Maxim Mai, a Software engineer @wealthsimple, founder of piano4schools; ex @paymentuscorp, ex @IBM, ex co-founder of #mongohouse; @uoftcompsci alum.
 
 ### Why the name of `return0`
 
@@ -8,27 +8,8 @@ In Linux/Unix environment, when a program exits with a return code `0`, it indic
 
 ### What to expect?
 
-`Return0` will provide both fundamental computer science concept, in format of crash course and detailed explaination, programming challenges and more.
+This will be a space where I share my take on fundamental computer science concepts, insights from my work as a senior software engineer, and a mix of personal projects and hobbies. From creating useless apps to modifying the OM642 diesel engine, woodworking, home improvement, and even my charity work with piano4schools.com, this blog is a blend of tech, tinkering, and creativity. Dive in and explore! 🚀
 
-Sample leetcode question: Given two integers a and b, return the sum of the two integers without using the operators + and -.
-
-```
-def getSum(self, a: int, b: int) -> int:
-    x, y = abs(a), abs(b)
-    
-    if x < y:
-        return self.getSum(b, a)  
-    sign = 1 if a > 0 else -1
-
-    if a * b >= 0:
-        while y:
-            x, y = x ^ y, (x & y) << 1
-    else:
-        while y:
-            x, y = x ^ y, ((~x) & y) << 1
-
-    return x * sign
-```
 
 ### Support or Contact
 
